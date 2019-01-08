@@ -4,12 +4,52 @@ h{font-family:timesnewroman; fot-size:200%; text-align:center;}
 p{font-family:timesnewroman; fot-size:125%;text-align:left;}
 </style>
 <title>Farris</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
 <body>
-<img src="wra.jpg"/>
-<h1>Farris' Digital Engineering and Fabrication Website</h1>
-<p>About me: </p>
-</body>
-<a href="u1">Unit 1</a>
+
+<div class="sidenav">
+ <a href="u1">Unit 1</a>
   <br>
 <a href="u2">Unit 2</a>
   <br>
@@ -28,4 +68,13 @@ p{font-family:timesnewroman; fot-size:125%;text-align:left;}
 <a href="u9">Unit 9</a>
   <br>
 <a href="u10">Unit 10</a>
+</div>
+<div class="main">
+  <h1>Farris' Digital Engineering and Fabrication Website</h1>
+<p>About me: </p>
+  <p>1</p>
+  </div>
+</body>
+<body>
+<img src="wra.jpg"/>
 </html>
