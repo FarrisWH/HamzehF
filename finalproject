@@ -1,1 +1,10 @@
-
+<html>
+<style>
+h{font-family:timesnewroman; fot-size:200%; text-align:center;}
+p{font-family:timesnewroman; fot-size:125%;text-align:left;}
+</style>
+<title>Final Project</title>
+<body>
+<h1>Final Project</h1>
+</body>
+</html>
